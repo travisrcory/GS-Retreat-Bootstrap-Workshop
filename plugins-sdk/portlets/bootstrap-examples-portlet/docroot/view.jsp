@@ -17,11 +17,6 @@
 <%@ taglib uri="http://liferay.com/tld/aui" prefix="aui" %>
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 
-<%--
-<script src="http://cdn.alloyui.com/3.0.0/aui/aui-min.js"></script>
-<link href="http://cdn.alloyui.com/3.0.0/aui-css/css/bootstrap.min.css" rel="stylesheet"></link>
----%>
-
 <portlet:defineObjects />
 
 <%
@@ -43,6 +38,15 @@ You can make the navitems direct the user anywhere
 
 <%
 /*
+Use the main.css in this portlet to style the navbar to look like the navbar from this website.
+http://bootswatch.com/flatly/#navbar
+*/
+%>
+
+<%
+/*
+EXTRA CREDIT
+
 Using Bootstrap 3 to create the same column and navbar from the first two examples.
 Please make a unique layout for the mobile viewport.
 See Bootstrap 3 documentation for help
@@ -53,14 +57,7 @@ http://www.bootply.com/bootstrap-3-migration-guide
 */
 %>
 
-<%
-/*
-Use the main.css in this portlet to style the navbar to look like the navbar from this website.
-http://bootswatch.com/flatly/#navbar
-*/
-%>
-
-
-
-
-
+<%--
+<script src="http://cdn.alloyui.com/3.0.0/aui/aui-min.js"></script>
+<link href="http://cdn.alloyui.com/3.0.0/aui-css/css/bootstrap.min.css" rel="stylesheet"></link>
+---%>
