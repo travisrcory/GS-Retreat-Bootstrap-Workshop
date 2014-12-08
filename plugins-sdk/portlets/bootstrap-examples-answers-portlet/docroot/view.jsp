@@ -43,6 +43,7 @@ Please include a dropdown someone in the navbar
 You can make the navitems direct the user anywhere
 */
 %>
+
 <aui:nav-bar cssClass="bootstrap-workshop-navbar">
 	<aui:nav>
 		<aui:nav-item cssClass="bootstrap-workshop-nav-item" href="http://www.noradsanta.org/" label="Santa Tracker" />
@@ -53,7 +54,7 @@ You can make the navitems direct the user anywhere
 			<aui:nav-item cssClass="bootstrap-workshop-dropdown-nav-item" href="http://www.heidelberg-marketing.de/events/highlights-in-heidelberg/heidelberger-weihnachtsmarkt.html/" label="Heidelberg" />
 		</aui:nav-item>
 	</aui:nav>
-<aui:nav-bar/>
+</aui:nav-bar>
 
 <%
 /*

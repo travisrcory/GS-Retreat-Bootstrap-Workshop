@@ -1,0 +1,116 @@
+@import "compass";
+@import "mixins";
+
+.bootstrap-examples-answers-portlet {
+	.bootstrap-workshop-navbar {
+		margin-top: 40px;
+
+		.navbar-inner {
+			background-color: #18BC9C;
+			background-image: none;
+
+			@include border-radius(5px);
+
+			border-width: 0;
+			box-shadow: none;
+			padding: 0 5px;
+
+			.nav > li > a {
+				color: #FFF;
+				font-size: 16px;
+				font-weight: 400;
+				text-shadow: none;
+
+				.icon-caret-down {
+					background: none;
+
+					@include border-radius(0);
+				}
+			}
+
+			.nav > li > .dropdown-menu:before, .nav > li > .dropdown-menu:after {
+				display: none;
+			}
+
+
+			.nav li.dropdown.open > .dropdown-toggle,  .nav li.dropdown.active > .dropdown-toggle,  .nav li.dropdown.open.active > .dropdown-toggle {
+				background-color: #15A589;
+				box-shadow: none;
+				color: #FFF;
+			}
+
+			.nav > li > a:focus,  .nav > li > a:hover {
+				background: transparent;
+				color: #2C3E50;
+			}
+
+			.dropdown-menu {
+				@include border-top-left-radius(0);
+				@include border-top-right-radius(0);
+
+				margin: 0;
+				width: 115%;
+
+				> li > a {
+					color: #7B8A8B;
+
+					&:hover, &:focus {
+						background-color: #2C3E50;
+						background-image: none;
+						color: #FFF;
+					}
+				}
+			}
+		}
+	}
+
+	/*--- Max-width: 979px ---*/
+
+	@media (max-width: 979px) {
+		.bootstrap-workshop-navbar {
+			.navbar-inner {
+				@include border-radius(0);
+
+				padding: 0;
+
+				.container .btn-navbar {
+					border-color: #128F76;
+					box-shadow: none;
+					color: #FFF;
+					padding: 3px 10px;
+					position: relative;
+					top: 3px;
+
+					&:hover {
+						background-color: #128F76;
+					}
+
+					span {
+						background: none;
+					}
+				}
+
+				.nav-collapse {
+					border: 1px #128F76 solid;
+
+					@include transition(all 0.15s ease-out);
+				}
+
+				.nav > li > a:hover, .nav > li > a:focus {
+					background-color: #15A589;
+					color: #FFF;
+				}
+
+				.dropdown-menu > li > a {
+					color: #FFF;
+					padding-left: 30px;
+
+					&:hover, &:focus {
+						background: none;
+						color: #2C3E50;
+					}
+				}
+			}
+		}
+	}
+}
