@@ -1,8 +1,6 @@
 You've Just Made an Incredible Decision
 =============
-
 With some tender love and care your pet rock and you can be best friends forever. You'll learn about:
-
   - Food
   - Tricks
   - Health
@@ -15,7 +13,6 @@ Most pet rock owners, though not intending to harm them, do not feed their pet r
 
 Tricks
 -------------
-
 Teaching your pet rock to do tricks not only benefits your pet rock, but can also be very entertaining to you, and your friends and family. Your pet can also be trained using the included treats. Below are some of the most basic tricks a pet rock can learn.
 
 
@@ -23,7 +20,6 @@ Teaching your pet rock to do tricks not only benefits your pet rock, but can als
 * Stay
 * Play Dead
 * Rock n' Roll
-* Attack
 
 Health
 -------------
