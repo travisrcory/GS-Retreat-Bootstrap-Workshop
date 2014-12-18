@@ -7,8 +7,7 @@ With some tender love and care your pet rock and you can be best friends forever
   - Tricks
   - Health
 
-> "What is man compared to rocks and mountains?"
-> - Jane Austen
+> "What is man compared to rocks and mountains?" - Jane Austen
 
 Food
 -------------
